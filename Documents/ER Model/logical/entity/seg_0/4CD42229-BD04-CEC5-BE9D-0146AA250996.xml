@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CD42229-BD04-CEC5-BE9D-0146AA250996" name="consignment">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 07:31:53 UTC</createdTime>
+<ownerDesignName>ER Model</ownerDesignName>
+<engineerTo>
+<item key="07446A56-27A5-16A6-B654-5534CEA2F383" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="consignment no" id="1852A0F5-389F-C09C-D4BB-025E2A831A57">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 07:32:10 UTC</createdTime>
+<ownerDesignName>ER Model</ownerDesignName>
+<engineerTo>
+<item key="07446A56-27A5-16A6-B654-5534CEA2F383" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supllier address" id="561D7ABA-743F-71D4-22E1-D7AD31056686">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 07:32:23 UTC</createdTime>
+<ownerDesignName>ER Model</ownerDesignName>
+<engineerTo>
+<item key="07446A56-27A5-16A6-B654-5534CEA2F383" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Delivery address" id="20EDBFF1-58B2-6567-5B77-23DA91656517">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 07:32:32 UTC</createdTime>
+<ownerDesignName>ER Model</ownerDesignName>
+<engineerTo>
+<item key="07446A56-27A5-16A6-B654-5534CEA2F383" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="volume" id="F7BAD1E9-A5BD-4D94-B652-6547D3945AD6">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 07:32:39 UTC</createdTime>
+<ownerDesignName>ER Model</ownerDesignName>
+<engineerTo>
+<item key="07446A56-27A5-16A6-B654-5534CEA2F383" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight" id="59084BC8-6EE6-265A-1536-5826CFAF56D7">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 07:32:43 UTC</createdTime>
+<ownerDesignName>ER Model</ownerDesignName>
+<engineerTo>
+<item key="07446A56-27A5-16A6-B654-5534CEA2F383" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date delivery" id="6E16D1CC-BEA2-B5E3-EB83-456A7B39AA9B">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 07:32:55 UTC</createdTime>
+<ownerDesignName>ER Model</ownerDesignName>
+<engineerTo>
+<item key="07446A56-27A5-16A6-B654-5534CEA2F383" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship no" id="DBC58902-9E1F-1B85-8BC7-18AEFBD3C1E0">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 07:50:37 UTC</createdTime>
+<generatorID>B3B26E10-433D-008E-AB94-4FEC09383CDF</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<engineerTo>
+<item key="07446A56-27A5-16A6-B654-5534CEA2F383" value="true"/>
+</engineerTo>
+<referedAttribute>9D71BA39-2F7E-0B0D-C970-58B227DA3D89</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13FBEBE4-FAA9-211A-B8CA-773A656346A5" name="consignment PK">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 07:32:21 UTC</createdTime>
+<ownerDesignName>ER Model</ownerDesignName>
+<engineerTo>
+<item key="07446A56-27A5-16A6-B654-5534CEA2F383" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1852A0F5-389F-C09C-D4BB-025E2A831A57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
