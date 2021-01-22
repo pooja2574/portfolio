@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="54A72CE0-9F25-83F2-1EEC-29BB30FE913F">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:18:31 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<sourcePk>E95DF324-9590-9EB4-372F-20417D371DCD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>362E1417-9D5C-93F7-84BE-8B5B66D2289C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B957B97-3D00-844B-CCCD-BD0CED47E97F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

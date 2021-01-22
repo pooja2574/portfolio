@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="362E1417-9D5C-93F7-84BE-8B5B66D2289C" name="Port">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:15:07 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="port no" id="F8D5FDB9-039F-58CB-ED7C-04051667C602">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:15:18 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port name" id="62D3DE45-48C3-BE18-65F0-12926FAA5C41">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:15:42 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Agent name" id="7BDA373A-2EB3-C5CF-428B-A77207FA3864">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:15:58 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Arrival date" id="8611F21C-B70F-806C-BB9F-5FDB4F6858CF">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:16:18 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departure date" id="201DA5BF-C3B9-5F5C-328E-8BF8B48B19D0">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:16:40 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E95DF324-9590-9EB4-372F-20417D371DCD" name="Port PK">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:15:40 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8D5FDB9-039F-58CB-ED7C-04051667C602</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

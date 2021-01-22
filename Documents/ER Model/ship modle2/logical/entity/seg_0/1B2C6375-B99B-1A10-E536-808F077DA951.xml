@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B2C6375-B99B-1A10-E536-808F077DA951" name="consignment">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:11:25 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="consinment no" id="E845FC1A-951D-CF66-0547-1780504A3EC2">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:11:35 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supllier Address" id="B8AB437C-35F4-91DA-BBF3-068EB4D3A03B">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:11:52 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="delivery address" id="F4FE64C3-45C9-7A62-E66A-0DD6A8004956">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:12:08 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="volume" id="C10894A6-4E07-7298-BBB4-4E84F06CCE21">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:12:29 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight" id="484B611E-1CD7-EFF2-0308-B4FF16AB75B0">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:12:41 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date delivered" id="6E7C698B-4630-5978-6DF1-AD3F56DCFADA">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:12:57 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship no" id="A6CF85BE-EAB4-3977-363E-35C8196526DD">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:17:44 UTC</createdTime>
+<generatorID>63EDE6CE-BC35-58D7-D7ED-E11CDDDD736B</generatorID>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<referedAttribute>5615BF85-3915-F537-5342-58F157CD3EF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D55BF1DA-F263-94EA-AF9C-6C709FE0134D" name="consignment PK">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:14:52 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<engineerTo>
+<item key="709A93E5-9F32-E8F6-A8A8-E028A7D512E7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E845FC1A-951D-CF66-0547-1780504A3EC2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

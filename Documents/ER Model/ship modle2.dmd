@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ship modle2" id="346CE696-0F72-023C-5048-14B828413240" version="3.5">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:06:39 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>346CE696-0F72-023C-5048-14B828413240</designId>
+</OSDM_Design>
