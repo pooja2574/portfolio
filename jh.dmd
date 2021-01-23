@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="jh" id="346CE696-0F72-023C-5048-14B828413240" version="3.5">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-22 06:06:39 UTC</createdTime>
+<ownerDesignName>ship modle2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>346CE696-0F72-023C-5048-14B828413240</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6DDCF9C3-BB2C-49FB-523E-89467220B266">
+<designStoragePath>C:\Users\pooja\Documents\ER Model</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
