@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85A166D9-87FD-AD6E-38DF-963E95000CD5" name="port">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>FA7AA42D-1FFE-72B2-0270-B21199977756</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Port_no" id="C7B81E50-92CB-A329-F99C-FB607FD5A73F">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>539B7553-EA38-D130-3AD7-A99842698632</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Port_Name" id="32481046-D5D1-F81E-9D94-5B5541CF9377">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>12C8AA7F-97FF-44EE-B2FB-42960510AC6A</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Agent_Nmae" id="586073B4-EC42-9944-2F67-222BF113D560">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>1D082B31-47B3-7E9C-8A69-07A47A814A42</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Arrival_Date" id="7960286B-883E-639A-81C3-9A612FC22E3D">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>DB294873-AA91-21C3-8537-9897E7CFFD3D</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Depature_Date" id="7A0494F7-0254-53E3-FD14-DEDD48A1DD30">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>C4F3DDC6-CA68-A5B0-90C1-28AB31B79566</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3DCA123-16FC-F297-FC21-18CA6CE91AFB" name="port_PK">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>06B1CEB7-3C1E-A32C-2C7E-57F68F25547B</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7B81E50-92CB-A329-F99C-FB607FD5A73F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

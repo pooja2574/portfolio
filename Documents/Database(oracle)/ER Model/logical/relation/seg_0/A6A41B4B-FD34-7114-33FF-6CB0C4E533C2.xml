@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="A6A41B4B-FD34-7114-33FF-6CB0C4E533C2">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 07:56:50 UTC</createdTime>
+<ownerDesignName>ER Model</ownerDesignName>
+<engineerTo>
+<item key="07446A56-27A5-16A6-B654-5534CEA2F383" value="true"/>
+</engineerTo>
+<sourcePk>06B1CEB7-3C1E-A32C-2C7E-57F68F25547B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA7AA42D-1FFE-72B2-0270-B21199977756</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6DD44E16-48BF-C912-3117-5E4F3ED4FB9C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCA81622-A496-5B68-5B90-28A3FEFD81C4" name="voyage">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>5A6DFB82-E73C-A94D-5A3C-DB9FFB2EC2C0</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Voyage_no" id="8067C456-D7A1-0519-827F-5D2BEC690976">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>A697DBC0-91EE-CCD2-6008-ACA9A8EE390F</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Duration" id="C21F513E-8CDD-190A-5797-D895486ED408">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>D4918D0D-E896-602F-815E-2626773B3E2F</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Arrival_Date" id="2C5A9874-06CC-A213-BF77-71A47EB6F0BD">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>FE7F9964-4FA3-A429-8C05-8B5B5DCC0BFE</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departure_Date" id="3C1CE89D-1E2E-8435-CE22-6DD355D3B5B2">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>A33E9F05-DDC2-0172-A118-5B8EA6DC09B9</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_table_ship_no" id="DDD77EDD-D5D1-8A6B-B46C-F6CCFE639705">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>077B73DE-9DF4-14FD-D24B-7537808BE908</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B62B857-566E-988B-5EBB-21F8CFCC6975" referredColumn="C2E6D61C-299B-B3B9-BF52-A7A68FE325EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ECA34B28-160D-30A5-D23F-7AA1391E5E6A" name="voyage_PK">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>065AABE4-80B5-F605-7C78-2D7A45A2E801</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8067C456-D7A1-0519-827F-5D2BEC690976"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E02543D8-8AA2-F32F-11A7-87EB6FB3D60D" name="voyage_ship_table_FK">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>FA53E31A-C54D-2888-8143-FFDA52FCEF1C</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDD77EDD-D5D1-8A6B-B46C-F6CCFE639705"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

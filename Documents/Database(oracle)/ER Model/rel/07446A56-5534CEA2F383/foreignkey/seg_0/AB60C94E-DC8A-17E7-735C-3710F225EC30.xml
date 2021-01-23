@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB60C94E-DC8A-17E7-735C-3710F225EC30" containerWithKeyObject="F922E2A0-91E3-1D1C-10F9-7F9FD7C5B50F" localFKIndex="051274C4-2B10-70EE-FA3E-0FFA336E2DBB" name="ship_table_port_FK">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>A6A41B4B-FD34-7114-33FF-6CB0C4E533C2</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<referredTableLongName>port</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85A166D9-87FD-AD6E-38DF-963E95000CD5</referredTableID>
+<keyObject>D3DCA123-16FC-F297-FC21-18CA6CE91AFB</keyObject>
+<referredKeyID>D3DCA123-16FC-F297-FC21-18CA6CE91AFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Port_no</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

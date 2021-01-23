@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="079A7E47-2DC9-356D-9EBB-688372C17FD4" name="officer">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>C7D77362-F23E-A1EB-9C7C-63380D672755</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="officer_no" id="28078D05-2563-8160-5C5D-ADD9F2A0BD1D">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>CEAF95C8-DDE0-A1F9-5649-2D50ABC7E378</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="officer_Name" id="038CC728-015D-A39D-7E4F-19D4D85FF87B">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>126A684A-D61F-5E2A-5283-7F877CA1FFBE</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="officer_Address" id="DACA633E-FA65-BE3A-1EA3-63E2DFFE0069">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>55984C52-70D7-DEB8-F29E-CA2F82541345</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Officer_DOB" id="109CC139-6E8D-0457-6E3B-2D76847FC401">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>1A3ADB99-6144-FD8E-A8A1-DB9881886308</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_table_ship_no" id="CD10A281-BA9D-2C9B-BF63-3B6F70C102C7">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>35DE1127-B40D-97DF-CDF2-3FAD98389D94</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1C65807-A8C9-BA74-24BF-6F10407A5B3B" referredColumn="C2E6D61C-299B-B3B9-BF52-A7A68FE325EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D32F8CAA-5062-5C1B-9249-C6B4B8919D91" name="officer_PK">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>C7FA6664-E0E2-EBF0-25AB-8361CBF506DE</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28078D05-2563-8160-5C5D-ADD9F2A0BD1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABD85078-8FD7-A2EC-5025-4B70987E29CF" name="officer__IDX">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<ownerDesignName>ER Model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>06F800BB-9C7C-F9F6-4D37-94528C56CE0B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CD10A281-BA9D-2C9B-BF63-3B6F70C102C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6318937-AC30-A5BE-69FB-62E42A5070B0" name="officer_ship_table_FK">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>06F800BB-9C7C-F9F6-4D37-94528C56CE0B</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD10A281-BA9D-2C9B-BF63-3B6F70C102C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

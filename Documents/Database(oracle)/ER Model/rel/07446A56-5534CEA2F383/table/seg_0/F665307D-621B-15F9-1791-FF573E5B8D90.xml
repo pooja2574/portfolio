@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F665307D-621B-15F9-1791-FF573E5B8D90" name="consignment">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>4CD42229-BD04-CEC5-BE9D-0146AA250996</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="consignment_no" id="936B5542-F81E-8CAF-F2FC-6F965D1AFEA5">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>1852A0F5-389F-C09C-D4BB-025E2A831A57</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="supllier_address" id="3E0E69C3-3F80-5365-2811-18855A5ACCFE">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>561D7ABA-743F-71D4-22E1-D7AD31056686</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Delivery_address" id="351C1EA2-82F6-9F75-BF3B-005E20F13D9D">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>20EDBFF1-58B2-6567-5B77-23DA91656517</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="volume" id="9E205F1D-204F-C79F-0DB7-A8EDC00E183D">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>F7BAD1E9-A5BD-4D94-B652-6547D3945AD6</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="weight" id="B0DCCE3B-B3B9-159F-D6DF-78F0263738C7">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>59084BC8-6EE6-265A-1536-5826CFAF56D7</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_delivery" id="09CD1C97-C3AB-DC60-EBD4-14CE315D7C0A">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>6E16D1CC-BEA2-B5E3-EB83-456A7B39AA9B</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_table_ship_no" id="B390FD5B-2E4C-A252-07E6-B16E3C3FA89D">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>DBC58902-9E1F-1B85-8BC7-18AEFBD3C1E0</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1816E857-12DB-6B48-29A6-6123EF98D0E1" referredColumn="C2E6D61C-299B-B3B9-BF52-A7A68FE325EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AE500F2-09D2-CD46-F9F2-9D04F09AC61A" name="consignment_PK">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>13FBEBE4-FAA9-211A-B8CA-773A656346A5</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="936B5542-F81E-8CAF-F2FC-6F965D1AFEA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA33468F-5EFE-C938-438D-B90DD7866884" name="consignment_ship_table_FK">
+<createdBy>pooja</createdBy>
+<createdTime>2021-01-21 09:42:16 UTC</createdTime>
+<generatorID>B3B26E10-433D-008E-AB94-4FEC09383CDF</generatorID>
+<ownerDesignName>ER Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B390FD5B-2E4C-A252-07E6-B16E3C3FA89D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
